@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Clearentry.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Clear All" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+   
+        <Entry x:Name="Nr1" />
+        <Entry x:Name="Nr2" />
+        <Entry x:Name="Nr3" />
+        <Button Text="Clear" Clicked="Button_Clicked" />
+
+    </StackLayout>
+
+</ContentPage>
